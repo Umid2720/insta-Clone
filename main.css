@@ -40,3 +40,27 @@
 .sidebar__btns {
   margin-top: auto;
 }
+
+/* Main section styless */
+
+.main{
+    width: 82%;
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+}
+
+.story__section{
+    display: flex;
+    margin: 20px 0;
+    column-gap: 20px;
+}
+
+.story{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid rgb(235, 81, 106);
+}
+
