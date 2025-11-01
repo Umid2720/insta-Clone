@@ -1,0 +1,42 @@
+@import url("./reset.css");
+
+.flex{
+    display: flex;
+}
+
+.sidebar {
+  width: 18%;
+  height: 100vh;
+  display: flex;
+  padding: 25px 15px;
+  flex-direction: column;
+  border-right: 1px solid black;
+}
+
+.logo {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.sidebar__menu li {
+  display: flex;
+  padding: 3px 10px;
+  column-gap: 15px;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.sidebar__menu li:hover {
+  /* background-color: #4150f7; */
+  background-color: #dde0e8;
+  border-radius: 8px;
+}
+
+.sidebar__menu a {
+  font-size: 20px;
+}
+
+.sidebar__btns {
+  margin-top: auto;
+}
